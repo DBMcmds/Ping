@@ -1,0 +1,22 @@
+{
+  "name": "ping",
+  "permissions": "NONE",
+  "restriction": "1",
+  "actions": [
+    {
+      "info": "5",
+      "storage": "1",
+      "varName2": "ping",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Pong! `${tempVars(\"ping\")}ms`\n",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "_id": "qfOeD"
+}
